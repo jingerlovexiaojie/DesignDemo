@@ -43,4 +43,29 @@ ToolBar效果和ActionBar是一样的，用Toolbar代替ActionBar的原因，可
         android:layout_height="?actionBarSize"
         android:background="@color/colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />  
+        
+NavigationView
+增加头部
+
+        <!-- android:layout_gravity = "start"侧滑菜单在左侧出现-->
+        <!--app:itemTextColor 选中字体的颜色-->
+        <!-- app:itemIconTint 选中图标的颜色-->
+        <!--app:headerLayout="@layout/header" 头部的布局-->
+        
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity = "start"
+            app:headerLayout="@layout/header"
+            app:menu="@menu/navigation"
+            app:itemTextColor="@color/navigation_selector"
+            app:itemIconTint="@color/navigation_selector"
+            >
+
+        </android.support.design.widget.NavigationView>
+
+
+
+        
 
