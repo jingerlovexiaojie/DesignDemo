@@ -37,10 +37,10 @@ ToolBar效果和ActionBar是一样的，用Toolbar代替ActionBar的原因，可
 
 让DrawerLayout和Toolbarl连用
 
- <android.support.v7.widget.Toolbar
+    <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:background="@color/colorPrimary"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />  
 
